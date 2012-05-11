@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scroll"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    
+<RelativeLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+    
+    <TextView
+      android:id="@+id/categoryNameLabel"
+      style="@style/TwoColumnLabel"
+      android:text="Name" />
+      
+    <EditText
+      android:id="@+id/categoryName"
+      style="@style/TwoColumnEdit"
+      android:layout_toRightOf="@id/categoryNameLabel"
+      android:hint="My category" />
+  
+    <TextView
+        android:id="@+id/filterHeader"
+        style="@style/TwoColumnHeader"
+        android:layout_below="@id/categoryName"
+        android:text="Filter" />    
+  
+    <TextView
+      android:id="@+id/categoryEngineProductLabel"
+      style="@style/TwoColumnLabel"
+      android:layout_below="@id/filterHeader"
+      android:text="Engine" />
+      
+    <Spinner
+      android:id="@+id/categoryEngineProduct"
+      style="@style/TwoColumnSpinner"    
+      android:layout_below="@id/filterHeader"
+      android:layout_toRightOf="@id/categoryEngineProductLabel"
+      android:prompt="@string/select_engine" />
+
+    <include
+        layout="@layout/two_column_buttons"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/categoryEngineProduct"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>
+</ScrollView>
+
+

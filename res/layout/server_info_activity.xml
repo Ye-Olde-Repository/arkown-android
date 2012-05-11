@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent">
+  
+<TableRow>
+    <TextView
+        android:textStyle="bold"
+        android:text="Game " />
+    <TextView
+        android:id="@+id/serverProduct"
+        android:text="@+id/serverProduct" />     
+</TableRow>    
+  
+<TableRow>
+    <TextView
+        android:textStyle="bold"
+        android:text="Name " />
+    <TextView
+        android:id="@+id/serverName"
+        android:text="@+id/serverName"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent" />     
+</TableRow>  
+
+<TableRow>
+    <TextView
+        android:textStyle="bold"
+        android:text="Host " />
+    <TextView
+        android:id="@+id/serverHost"
+        android:text="@+id/serverHost" />     
+</TableRow>  
+  
+<TableRow>
+    <TextView
+        android:textStyle="bold"
+        android:text="Ping " />
+    <TextView
+        android:id="@+id/serverResponseTime"
+        android:text="@+id/serverResponseTime" />     
+</TableRow>    
+  
+<TableRow>
+    <TextView
+        android:textStyle="bold"
+        android:text="Players  " />
+    <TextView
+        android:id="@+id/serverPlayerRatio"
+        android:text="@+id/serverPlayerRatio" />     
+</TableRow>  
+  
+<TableRow>
+    <TextView
+        android:textStyle="bold"
+        android:text="Map " />
+    <TextView
+        android:id="@+id/serverMapToken"
+        android:text="@+id/serverMapToken" />     
+</TableRow>  
+  
+</TableLayout>

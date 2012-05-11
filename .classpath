@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry exported="true" kind="lib" path="assets/commons-codec.jar"/>
+	<classpathentry exported="true" kind="lib" path="assets/commons-logging.jar"/>
+	<classpathentry exported="true" kind="lib" path="assets/gson-1.6.jar"/>
+	<classpathentry exported="true" kind="lib" path="assets/httpclient.jar"/>
+	<classpathentry exported="true" kind="lib" path="assets/httpcore.jar"/>
+	<classpathentry exported="true" kind="lib" path="assets/httpmime.jar"/>
+	<classpathentry combineaccessrules="false" exported="true" kind="src" path="/modeljson"/>
+	<classpathentry exported="true" kind="src" path="/arkown"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="gen"/>
+	<classpathentry kind="con" path="com.android.ide.eclipse.adt.ANDROID_FRAMEWORK"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

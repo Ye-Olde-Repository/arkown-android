@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <TextView android:text="@+id/serverName"
+        android:id="@+id/serverName"
+        android:textStyle="bold"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:lines="1"
+        android:scrollHorizontally="true"
+        android:ellipsize="end" />
+              
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >   
+
+        <TextView android:text="@+id/serverMapToken"
+            android:id="@+id/serverMapToken"
+            android:textColor="#FCDD9A"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:gravity="right" >        	
+
+         <TextView android:text="@+id/serverResponseTime"
+                android:id="@+id/serverResponseTime"
+                android:textColor="@color/health_green"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent" />
+
+            <TextView android:text="@+id/serverPlayerRatio"
+                android:minWidth="60sp"
+                android:gravity="right"
+                android:id="@+id/serverPlayerRatio"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent" /> 	   
+                       	
+        </LinearLayout>
+            
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent">
+
+<Button
+    android:id="@+id/sendButton"
+    android:layout_width="52sp"
+    android:layout_height="wrap_content" 
+    android:layout_alignParentBottom="true"
+    android:layout_alignParentRight="true"
+    android:text="@string/send" />
+
+<EditText
+    android:id="@+id/consoleInput"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true"
+    android:layout_toLeftOf="@id/sendButton" />
+
+<ScrollView
+    android:id="@+id/consoleOutputScroller"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_above="@id/consoleInput"
+    android:padding="5sp">
+    
+    <TextView
+        android:id="@+id/consoleOutput"
+        android:text="@+id/consoleOutput"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
+</ScrollView>
+
+</RelativeLayout>

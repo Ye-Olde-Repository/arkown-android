@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scroll"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    
+<RelativeLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <TextView
+        android:id="@+id/connectionHeader"
+        style="@style/TwoColumnHeader"
+        android:text="Connection" />  
+
+    <TextView
+        android:id="@+id/serverEngineLabel"
+        style="@style/TwoColumnLabel"
+        android:layout_below="@id/connectionHeader"
+        android:text="Engine" />
+      
+    <Spinner
+        android:id="@+id/serverEngine"
+        style="@style/TwoColumnSpinner"
+        android:layout_below="@id/connectionHeader"
+        android:layout_toRightOf="@id/serverEngineLabel"
+        android:prompt="@string/select_engine" />
+
+    <TextView
+        android:id="@+id/serverHostnameLabel"
+        style="@style/TwoColumnLabel"
+        android:text="Hostname"
+        android:layout_below="@id/serverEngine" />
+          
+    <EditText
+        android:id="@+id/serverHostname"
+        style="@style/TwoColumnEdit"
+        android:layout_toRightOf="@id/serverHostnameLabel"
+        android:layout_below="@id/serverEngine"
+        android:hint="255.255.255.255" />  
+    
+    <TextView
+        android:id="@+id/serverPortLabel"
+        style="@style/TwoColumnLabel"
+        android:layout_below="@id/serverHostname"
+        android:text="Port " />
+    
+    <EditText
+        android:id="@+id/serverPort"
+        style="@style/TwoColumnEdit"
+        android:layout_toRightOf="@id/serverPortLabel"
+        android:layout_below="@id/serverHostname"
+        android:inputType="number" />          
+    
+    <TextView
+        android:id="@+id/administrationHeader"
+        style="@style/TwoColumnHeader"
+        android:layout_below="@id/serverPort"
+        android:text="Administration" />  
+              
+    <TextView
+        android:id="@+id/serverCredentialUsernameLabel"
+        style="@style/TwoColumnLabel"
+        android:layout_below="@id/administrationHeader"
+        android:text="Username" />
+      
+    <EditText
+        android:id="@+id/serverCredentialUsername"
+        android:layout_toRightOf="@id/serverCredentialUsernameLabel"
+        android:layout_below="@id/administrationHeader"
+        style="@style/TwoColumnEdit" />                
+              
+    <TextView
+        android:id="@+id/serverCredentialPasswordLabel"
+        style="@style/TwoColumnLabel"
+        android:layout_below="@id/serverCredentialUsername"
+        android:text="Password" />
+      
+    <EditText
+        android:id="@+id/serverCredentialPassword"
+        android:layout_toRightOf="@id/serverCredentialPasswordLabel"
+        android:layout_below="@id/serverCredentialUsername"
+        style="@style/TwoColumnEdit" />  
+        
+    <TextView
+        android:id="@+id/serverQueryProxyAllowedLabel"
+        style="@style/TwoColumnCheckboxLabel"
+        android:layout_below="@id/serverCredentialPassword"
+        android:text="Proxy?" />
+      
+    <CheckBox
+        android:id="@+id/serverQueryProxyAllowed"
+        android:layout_toRightOf="@id/serverQueryProxyAllowedLabel"
+        android:layout_below="@id/serverCredentialPassword"
+        style="@style/TwoColumnCheckbox" />          
+
+    <include
+        layout="@layout/two_column_buttons"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/serverQueryProxyAllowed"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>
+</ScrollView>
+
+

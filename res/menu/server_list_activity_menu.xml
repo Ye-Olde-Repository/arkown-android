@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<item
+    android:icon="@drawable/ic_menu_add"
+    android:alphabeticShortcut="n"
+    android:id="@+id/add_server"
+    android:title="@string/add_server" />
+<item
+    android:icon="@drawable/ic_menu_refresh"
+    android:alphabeticShortcut="r"
+    android:id="@+id/refresh"
+    android:title="@string/refresh" />       
+<item
+    android:icon="@drawable/ic_menu_help"
+    android:alphabeticShortcut="h"
+    android:id="@+id/help"
+    android:title="@string/help" />
+<item
+    android:icon="@drawable/ic_menu_close_clear_cancel"
+    android:alphabeticShortcut="q"
+    android:id="@+id/quit"
+    android:title="@string/quit" />                
+</menu>

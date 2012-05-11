@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scroll"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+    
+<RelativeLayout 
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+   <TextView
+      android:id="@+id/commandNameLabel"
+      style="@style/TwoColumnLabel"
+      android:text="Name" />
+  
+  <EditText
+      android:id="@+id/commandName"
+      style="@style/TwoColumnEdit"
+      android:layout_toRightOf="@id/commandNameLabel"
+      android:hint="My command" />  
+     
+   <TextView
+      android:id="@+id/commandTargetLabel"
+      style="@style/TwoColumnLabel"      
+      android:layout_below="@id/commandName"
+      android:text="Target" />      
+      
+  <Spinner
+      android:id="@+id/commandTarget"
+      style="@style/TwoColumnSpinner"
+      android:layout_toRightOf="@id/commandTargetLabel"
+      android:layout_below="@id/commandName"
+      android:prompt="@string/select_target" />        
+      
+   <TextView
+      android:id="@+id/commandRawLabel"
+      style="@style/TwoColumnLabel"
+      android:layout_below="@id/commandTarget"
+      android:text="Command" />          
+      
+  <EditText
+      android:id="@+id/commandRawCommand"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_alignParentLeft="true"
+      android:layout_alignParentRight="true"
+      android:layout_below="@id/commandRawLabel"
+      android:background="@android:drawable/editbox_background"
+      android:lines="5"
+      android:hint="kick {%client.name%}"
+      android:gravity="top" />             
+
+   <TextView
+      android:id="@+id/commandOptionTypeLabel"
+      style="@style/TwoColumnLabel"      
+      android:layout_below="@id/commandRawCommand"
+      android:text="@string/option_type" />      
+      
+  <Spinner
+      android:id="@+id/commandOptionType"
+      style="@style/TwoColumnSpinner"
+      android:layout_toRightOf="@id/commandOptionTypeLabel"
+      android:layout_below="@id/commandRawCommand"
+      android:prompt="@string/select_option_type" />    
+
+    <TextView
+      android:id="@+id/commandOptionsLabel"
+      style="@style/TwoColumnLabel"   
+      android:layout_below="@id/commandOptionType"
+      android:paddingTop="13dip"
+      android:text="Options" />
+     
+    <ImageView
+        android:id="@+id/addOptionButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/commandOptionType"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/btn_circle"
+        android:src="@drawable/ic_btn_round_plus"
+        android:gravity="center_vertical" />
+        
+    <LinearLayout
+        android:id="@+id/options"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_below="@id/addOptionButton" /> 
+    
+    <include
+        layout="@layout/two_column_buttons"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/options"
+        android:layout_centerHorizontal="true" />
+    
+</RelativeLayout>
+</ScrollView>
+
+

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ArkOwn</string>
+    <string name="edit_server_activity_title">Edit Server | ArkOwn</string>
+    <string name="edit_command_category_activity_title">Edit Category | ArkOwn</string>
+    <string name="edit_command_activity_title">Edit Command | ArkOwn</string>
+    <string name="add_server">Add Server</string>
+    <string name="edit_server">Edit Server</string>
+    <string name="remove_server">Remove Server</string>
+    <string name="quit">Quit</string>
+    <string name="help">Help</string>
+    <string name="send">send</string>
+    <string name="refresh">Refresh</string>
+    <string name="select_engine">Select an engine</string>
+    <string name="save">save</string>
+    <string name="cancel">cancel</string>
+    <string name="add_command_category">Add Category</string>
+    <string name="edit">Edit</string>
+    <string name="remove">Remove</string>
+    <string name="target">Target</string>
+    <string name="select_target">Select a target</string>
+    <string name="add_command">Add command</string>
+    <string name="select_option_type">Select an option type</string>
+    <string name="option_type">Option Type</string>
+    <string name="proxy_agreement_activity_title">Terms and Conditions of Use | ArkOwn</string>
+    <string name="proxy_agreement_header">Terms and Conditions of Use</string>
+    <string name="agree">agree</string>
+    <string name="proxy_agreement">1. Definitions\n\n\"Arkown\" shall mean all ArkOwn applications and services.
+    \n\n\"Server\" shall mean the software and/or hardware that ArkOwn shall be provided direct access to, as well as all
+    hardware, software, and other means of connection necessary to gain access indirectly.\n\n\"User\" shall mean any
+    third-party person, company, or service that interacts with ArkOwn.\n\n
+    2. Authority\n\nBy enabling and using "Proxy" access for the specified Server, you identify
+    yourself as the lawful owner and/or an official administrator of said Server with authorization to allow ArkOwn
+    access to the Server.\n\nYou agree to allow ArkOwn to store
+    sensitive information about your Server on a remote database, including, but not limited to, authentication
+    credentials, access logs, and Server status.\n\nYou agree to allow ArkOwn to query and control
+    your Server using the the commands and User access rights that you maintain.\n\nYou agree to allow ArkOwn to provide
+    remote access to, control of, and information about your Server to the Users that you specify, based on the
+    permissions and commands that you specifiy.\n\n
+    3. Disclaimer of Warranty / Limitation of Liability\n\nYou accept that ArkOwn
+    applications and services are provided on an AS IS basis, without warranties or conditions of any kind, either
+    express or implied.\n\nYou accept that you are solely responsible for determining the appropriateness
+    of using and providing Users access to your Server and assume any and all risks associated with your exercise of
+    usage under these terms.\n\nYou accept all responsibility for remote access to your Server by ArkOwn, both
+    authorized and unauthorized.\n\nYou accept that ArkOwn shall not be liable to you
+    for damages, including any direct, indrect, special, incidental, or consequential damages of any character
+    arising as a result of allowing access to your Server.\n\nBy clicking the \"agree\" button, you acknowledge that
+    you have read, fully understand, and agree to all terms specified above.
+    </string>
+</resources>
