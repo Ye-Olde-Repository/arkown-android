@@ -1,5 +1,7 @@
 arkown-android
-==============ArkOwn - Android Game Server Commander
+==============
+
+ArkOwn - Android Game Server Commander
 < http://www.roylaurie.com/ArkOwn >
 
 ArkOwn allows users to remotely monitor and manage RCON-based dedicated game servers from their Android phones with ease.
