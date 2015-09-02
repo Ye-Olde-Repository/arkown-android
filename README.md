@@ -2,8 +2,6 @@ arkown-android
 ==============
 
 ArkOwn - Android Game Server Commander
-< http://www.roylaurie.com/ArkOwn >
-
 ArkOwn allows users to remotely monitor and manage RCON-based dedicated game servers from their Android phones with ease.
 
 ArkOwn features:
@@ -19,20 +17,4 @@ Supported game servers include:
    - Counter-Strike: Source (CSS)
    - Half-Life 2 Deathmatch (DM)
    - Team Fortress 2 (TF2)
-
-The name "ArkOwn" is a play-on-words of the acronym "RCON", the word "archon", and the gamer term "own".
- - RCON (Remote CONtrol) is the protocol used to control many popular first-person-shooter (FPS) game servers.
- - Archon was the ancient Greek political title used for the rulers of Greek tribes.
- - Own (or "pwn" [sic]) is the colloquial gamer term used to describe something exemplary or skillfully dominating.
-
-Please report any bugs, feature requests, comments, or concerns via email to:
-  ArkOwn Technical Support <support.arkown@roylaurie.com>.
-
-Thank you for your interest and support!
-
-Sincerely,
-  Roy Laurie
-
-Roy Laurie Software
-http://www.roylaurie.com
 
